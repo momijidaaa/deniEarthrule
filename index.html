@@ -1,72 +1,113 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ルールサイト</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      body {
-        font-family: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', sans-serif;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>でにEarthルール</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', sans-serif;
+    }
+    .fade-in {
+      animation: fadeIn 0.6s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
       }
-      .fade-in {
-        animation: fadeIn 0.6s ease-in-out;
+      to {
+        opacity: 1;
+        transform: translateY(0);
       }
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-          transform: translateY(10px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-    </style>
-  </head>
+    }
+  </style>
+</head>
 
-  <body class="bg-[#f7f5f2] text-gray-800">
-    <main class="max-w-md mx-auto px-5 py-10 space-y-8">
-      <!-- 見出し -->
-      <header class="text-center">
-        <h1 class="text-3xl font-bold tracking-wider text-gray-900 mb-2">📜 サーバールール</h1>
-        <p class="text-sm text-gray-500">きれいに、楽しく、安心して遊ぶために</p>
-      </header>
+<body class="bg-[#f7f5f2] text-gray-800">
+  <main class="max-w-md mx-auto px-5 py-10 space-y-8">
+    <!-- 見出し -->
+    <header class="text-center">
+      <h1 class="text-3xl font-bold tracking-wider text-gray-900 mb-2">📜 でにEarthルール</h1>
+      <p class="text-sm text-gray-500">規約を読んで楽しく遊ぼう！</p>
+    </header>
 
-      <!-- 基本ルール -->
-      <section class="bg-white rounded-2xl shadow-md p-6 fade-in">
-        <h2 class="text-xl font-semibold text-yellow-600 mb-3 border-b pb-1 border-yellow-200">ディスコードルール</h2>
-        <ul class="space-y-2 text-[15px] leading-relaxed">
-          <li>・荒らし・迷惑行為は禁止</li>
-          <li>・チートや改造クライアントは禁止</li>
-          <li>・他人を不快にさせる行為は禁止</li>
-        </ul>
-      </section>
+    <!-- Discordルール -->
+    <section class="bg-white rounded-2xl shadow-md p-6 fade-in">
+      <h2 class="text-xl font-semibold text-yellow-600 mb-3 border-b pb-1 border-yellow-200">✅ DeniEarth Discordサーバールール</h2>
+      <div class="text-[15px] leading-relaxed space-y-4">
+        <div>
+          <strong>1. 基本的なマナーを守ること</strong><br>
+          ・他のメンバーへの敬意を持って接してください。<br>
+          ・嫌がらせ、煽り、誹謗中傷、暴言、差別的発言などは<strong>一切禁止</strong>です。<br>
+          👉「冗談のつもりだった」「仲がいいからOK」などの言い訳は認めません。
+        </div>
+        <div>
+          <strong>2. スパム・荒らしの禁止</strong><br>
+          ・同じメッセージの連投、意味不明な文字列、無関係なURLの送信などは禁止です。<br>
+          👉ボットによる連投も含みます。
+        </div>
+        <div>
+          <strong>3. 不適切なコンテンツの投稿禁止</strong><br>
+          ・NSFW（性的、暴力的、グロテスクな内容）画像・発言・リンクは禁止です。<br>
+          👉他サイトへの誘導でも禁止対象になります。
+        </div>
+        <div>
+          <strong>4. サーバー運営者の指示には従うこと</strong><br>
+          ・<span class="text-blue-600 font-bold">@運営（<@&1397152574641143898>）</span>からの注意・警告は<strong>最終警告と見なします</strong>。<br>
+          👉「知らなかった」「聞いてない」は通用しません。
+        </div>
+        <div>
+          <strong>5. ルールの穴をつく行為は禁止</strong><br>
+          ・ルールに明記されていないからといって、迷惑行為・不正行為が許されるわけではありません。<br>
+          👉「ルールに書いてなかった」は通用しません。常識とモラルの範囲で行動してください。
+        </div>
+        <div>
+          <strong>⚠ 違反時の対応</strong><br>
+          ・軽微な違反：警告 or タイムアウト<br>
+          ・悪質な違反：タイムアウト、Kick、BAN、または通報対応<br>
+          ・繰り返し違反：<strong>事前通知なしでBANする場合があります</strong>
+        </div>
+      </div>
+    </section>
 
-      <!-- チャットルール -->
-      <section class="bg-white rounded-2xl shadow-md p-6 fade-in">
-        <h2 class="text-xl font-semibold text-yellow-600 mb-3 border-b pb-1 border-yellow-200">マインクラフト内ルール</h2>
-        <ul class="space-y-2 text-[15px] leading-relaxed">
-          <li>・暴言や差別発言は禁止</li>
-          <li>・スパム（連投）は避けてください</li>
-          <li>・なりすましや個人情報の開示は禁止</li>
-        </ul>
-      </section>
+    <!-- 既存ルール -->
+    <section class="bg-white rounded-2xl shadow-md p-6 fade-in">
+      <h2 class="text-xl font-semibold text-yellow-600 mb-3 border-b pb-1 border-yellow-200">マインクラフト内ルール</h2>
+      <ul class="space-y-2 text-[15px] leading-relaxed">
+        <li>・暴言や差別発言は禁止</li>
+        <li>・スパム（連投）は避けてください</li>
+        <li>・なりすましや個人情報の開示は禁止</li>
+      </ul>
+    </section>
 
-      <!-- 建築ルール -->
-      <section class="bg-white rounded-2xl shadow-md p-6 fade-in">
-        <h2 class="text-xl font-semibold text-yellow-600 mb-3 border-b pb-1 border-yellow-200">建国ルール</h2>
-        <ul class="space-y-2 text-[15px] leading-relaxed">
-          <li>・他人の建築物を無断で壊さない</li>
-          <li>・公共スペースにはルールを守って建築</li>
-          <li>・不快感を与える建築物は禁止</li>
-        </ul>
-      </section>
+    <section class="bg-white rounded-2xl shadow-md p-6 fade-in">
+      <h2 class="text-xl font-semibold text-yellow-600 mb-3 border-b pb-1 border-yellow-200">建国ルール</h2>
+      <ul class="space-y-2 text-[15px] leading-relaxed">
+        <li>・他人の建築物を無断で壊さない</li>
+        <li>・公共スペースにはルールを守って建築</li>
+        <li>・不快感を与える建築物は禁止</li>
+      </ul>
+    </section>
 
-      <!-- フッター -->
-      <footer class="text-center text-xs text-gray-400 mt-10">
-        &copy; deniearth momiji
-      </footer>
-    </main>
-  </body>
+    <!-- フッター -->
+    <footer class="text-center text-xs text-gray-400 mt-10">
+      &copy; deniearth momiji | 最終コミット: <span id="commit-time">読み込み中...</span>
+    </footer>
+  </main>
+
+  <script>
+    // 最終コミット（GitHub APIから deniEarthrule リポジトリの最新コミットを取得）
+    fetch('https://api.github.com/repos/momijidaaa/deniEarthrule/commits')
+      .then(res => res.json())
+      .then(data => {
+        const latest = new Date(data[0].commit.committer.date);
+        document.getElementById('commit-time').textContent = latest.toLocaleString('ja-JP');
+      })
+      .catch(() => {
+        document.getElementById('commit-time').textContent = '取得失敗';
+      });
+  </script>
+</body>
 </html>
